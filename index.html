@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+      />
+      
+      <title>
+        Newsletter sign-up form with success message
+      </title>
+      
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <link
+      rel="stylesheet"
+      href="./css/styles.css"
+      />
+      
+      <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <!-- 
+  Stay updated!
+
+  Join 60,000+ product managers receiving monthly updates on:
+
+  Product discovery and building what matters
+  Measuring to ensure updates are a success
+  And much more!
+
+  Email address
+  email@company.com
+
+  Subscribe to monthly newsletter
+
+
+
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message -->
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        />
+        <title>Newsletter Signup</title>
+        <link
+          rel="stylesheet"
+          href="styles.css"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body>
+        <div class="container">
+          <div class="card">
+            <div class="image-section">
+              <div class="illustration"></div>
+            </div>
+            <div class="content-section">
+              <h1>Stay updated!</h1>
+              <p>
+                Join 60,000+ product managers
+                receiving monthly updates on:
+              </p>
+              <ul>
+                <li>
+                  <span class="check-mark"
+                    >✔</span
+                  >
+                  Product discovery and building
+                  what matters
+                </li>
+                <li>
+                  <span class="check-mark"
+                    >✔</span
+                  >
+                  Measuring to ensure updates are
+                  a success
+                </li>
+                <li>
+                  <span class="check-mark"
+                    >✔</span
+                  >
+                  And much more!
+                </li>
+              </ul>
+              <form id="subscription-form">
+                <label for="email"
+                  >Email address</label
+                >
+                <input type="email" id="email" placeholder="email@company.com" />
+                <span
+                  class="error-message"
+                  id="error-message"
+                  ></span
+                >
+                <button type="submit">
+                  Subscribe to monthly newsletter
+                </button>
+              </form>
+            </div>
+          </div>
+          <div
+            class="success-message"
+            id="success-message"
+          >
+            <span class="success-icon">✔</span>
+            <h2>Thanks for subscribing!</h2>
+            <p>
+              A confirmation email has been sent
+              to
+              <span id="success-email"
+                >ash@loremcompany.com</span
+              >. Please open it and click the
+              button inside to confirm your
+              subscription.
+            </p>
+            <button id="dismiss-btn">
+              Dismiss message
+            </button>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
