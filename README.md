@@ -11,7 +11,7 @@
 
 ## 👀 Preview
 
-[Live Demo](https://www.notion.so/%5B%3Chttps://your-live-demo-link.com/%3E%5D(%3Chttps://moein-creator-ops.github.io/qr-code-component/%3E))
+[Live Demo](https://moein-creator-ops.github.io/Newsletter-section-form/)
 
 ## 💖 Credits
 
