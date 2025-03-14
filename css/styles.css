@@ -14,14 +14,6 @@ body {
   padding: 20px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .container {
   max-width: 375px;
   width: 100%;
