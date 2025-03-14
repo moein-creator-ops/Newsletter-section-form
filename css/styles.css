@@ -131,7 +131,12 @@ button {
 }
 
 button:hover {
-  background-color: hsl(235, 18%, 26%);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 71, 100, 1) 0%,
+    rgba(252, 146, 72, 1) 35%,
+    rgba(255, 104, 64, 1) 100%
+  );
 }
 
 .success-message {
@@ -194,7 +199,6 @@ h2 {
     rgba(252, 146, 72, 1) 35%,
     rgba(255, 104, 64, 1) 100%
   );
-  transition: background-color 1s ease-in;
 }
 
 @media (min-width: 768px) {
